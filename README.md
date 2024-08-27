@@ -1,6 +1,6 @@
 This educational project is implementing a Basic Search Engine with the [PageRank](https://blog.majestic.com/company/understanding-googles-algorithm-how-pagerank-works/) algorithm.
 
-The damping parameter used for calculation the page rank is 0.5.
+The damping parameter used for the calculation of page rank is 0.5.
 
 The input information from the Standard Input includes:
 
@@ -11,9 +11,9 @@ The input information from the Standard Input includes:
 
 The result of the program is the top 5 matched websites for the query which are determined by these rules:
 
-- If there is a website that exactly matches the query (including partial match), it should go to the top of the list.
+- If there is a website that exactly matches the query (including partial match), it will go to the top of the list.
 - Other websites are sorted according to the PageRank in descending order.
-- In case there is a tie between two websites' PageRanks, a tie should be broken by reverse alphabetical order. (ie., if site "vk" has PageRank = 16.2 and "twitter" also has 16.2, then "vk" should be listed higher)
+- In case there is a tie between two websites' PageRanks, a tie is broken by reverse alphabetical order. (ie., if site "vk" has PageRank = 16.2 and "twitter" also has 16.2, then "vk" will be listed higher)
 - If there are fewer than 5 websites on the internet, all of them are returned.
 
 Example 1
